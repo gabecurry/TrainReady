@@ -1,0 +1,74 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+#game-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent overlay for contrast */
+    z-index: -1; /* Keeps the overlay behind all content */
+}
+
+  h1, h2 {
+    color: #8b4513;
+  }
+  
+  #game-container, #suspects-page, #end-screen {
+    padding: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .suspect {
+    border: 2px solid #8b4513;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    background-color: #fff;
+  }
+  
+  .suspect h4 {
+    margin: 10px 0;
+    color: #8b0000;
+  }
+  
+  .suspect p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #8b4513;
+    background-color: #d2b48c;
+    color: #333;
+  }
+  
+  button:hover {
+    background-color: #8b4513;
+    color: white;
+  }
+  
+  #hint-text {
+    color: #0c0c0c;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  

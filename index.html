@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old West Train Robbery Mystery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Old West Train Robbery Mystery</h1>
+    <p id="story">
+      It’s the year 1885, and the Great Western Express, one of the most prestigious trains in the nation, has been robbed under mysterious circumstances. The train was carrying a precious cargo—gold bars and rare artifacts destined for the governor's mansion, meant to honor the state's centennial celebration. 
+
+      When the train was finally stopped, it was found in disarray, with the cargo car emptied and no trace of the thieves. The precious cargo—millions in gold and priceless relics—had been stolen without a single passenger or crew member seeing a thing. The train was left stranded in the wilderness, and the sheriff was called to investigate.
+      
+      Eight passengers aboard the train had connections to the heist, each with a murky past. As the sheriff’s appointed deputy, you’ve been asked to assist in solving this daring crime.
+      
+      With the clock ticking and the train station authorities desperate to recover the stolen items, you must use your sharp mind to piece together the clues. The suspects all have reasons to be involved—from hidden debts to revenge, to connections in the underground world of theft. Each one harbors their own secrets, and the story they tell may not be the truth.
+      
+Will you uncover the mastermind behind the robbery before they vanish into the rugged terrain of the West? Justice waits for no one.
+    </p>
+    <div class="info">
+      <p>Time Remaining: <span id="timer">300</span> seconds</p>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+    <button id="suspects-button">View Suspects</button>
+    <button id="hint-button">Get a Hint</button>
+    <p id="hint-text"></p>
+  </div>
+
+  <div id="suspects-page" class="hidden">
+    <h2>Suspects</h2>
+    <div id="suspects-list"></div>
+    <button id="back-button">Back to Main Menu</button>
+  </div>
+
+  <div id="end-screen" class="hidden">
+    <h2 id="end-message"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
